@@ -2,7 +2,7 @@ export const MenuItems = [
     {
         id: 1,
         title: 'Home',
-        path: './home',
+        path: './',
         cName: 'nav-item',
     },
     {

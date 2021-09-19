@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
      <Navbar />
      <Switch>
-       <Route path='/home' componenet={Home}></Route>
+       <Route path='/' exact componenet={Home}></Route>
        <Route path='/movies' component={Movies}></Route>
        <Route path='/watchlist' component={WatchList}></Route>
      </Switch>
