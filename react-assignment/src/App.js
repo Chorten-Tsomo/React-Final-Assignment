@@ -1,21 +1,22 @@
 import './App.css';
 import React from 'react';
 import Navbar from './Components/Navbar';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route} from 'react-router-dom';
 import Home from './Components/Pages/Home';
 import WatchList from './Components/Pages/WatchList';
 import Movies from './Components/Pages/Movies';
+
 
 function App() {
   return (
     <>
     <BrowserRouter>
      <Navbar />
-     <Switch>
-       <Route path='/' exact componenet={Home}></Route>
-       <Route path='/movies' component={Movies}></Route>
-       <Route path='/watchlist' component={WatchList}></Route>
-     </Switch>
+     
+       <Route exact path='/' componenet={Home}/>
+       <Route exact path='/movies' component={Movies}/>
+       <Route exact path='/watchlist' component={WatchList}/>
+     
 
      
     </BrowserRouter>

@@ -1,9 +1,12 @@
 import React from 'react';
+import MovieSlider from '../MovieSlider';
+
 
 function Home() {
     return(
-        <div>
-            <h1 className='home'>Home</h1>
+        <div className='home'>
+            <MovieSlider />
+            
         </div>
     );
 }

@@ -1,0 +1,21 @@
+.movie_slides{
+    display: grid;
+    column-gap: 3em;
+    grid-template-columns: 4em auto 4em;
+    
+}
+
+.movie{
+    overflow: hidden;
+    height: 40em;
+    border-radius: 15px;
+}
+
+.right_arrow{
+    height: 4em;
+
+}
+
+.left_arrow{
+    height: 4em;
+}
